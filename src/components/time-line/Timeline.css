@@ -1,0 +1,219 @@
+/* .timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  position: relative;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #ccc;
+  z-index: -1;
+}
+
+.timeline-button {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.year-2015 {
+  background-color: #ff7f50;
+}
+
+.year-2017 {
+  background-color: #ffd700;
+}
+
+.year-2019 {
+  background-color: #6a5acd;
+}
+
+.year-2021 {
+  background-color: #32cd32;
+}
+
+.year-Hoy {
+  background-color: #9370db;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal-content h2 {
+  margin: 0 0 10px;
+}
+
+.modal-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background: #0056b3;
+} */
+
+/* General container styles */
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Timeline horizontal layout (default) */
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  position: relative;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #ccc;
+  z-index: -1;
+}
+
+/* Timeline button styles */
+.timeline-button {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.year-2015 {
+  background-color: #ff7f50;
+}
+
+.year-2017 {
+  background-color: #ffd700;
+}
+
+.year-2019 {
+  background-color: #6a5acd;
+}
+
+.year-2021 {
+  background-color: #32cd32;
+}
+
+.year-Hoy {
+  background-color: #9370db;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal-content h2 {
+  margin: 0 0 10px;
+}
+
+.modal-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background: #0056b3;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .timeline::after {
+    content: "";
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-color: #ccc;
+  }
+
+  .timeline-button {
+    margin-bottom: 20px;
+  }
+
+  .timeline-button:last-child {
+    margin-bottom: 0;
+  }
+}

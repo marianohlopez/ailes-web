@@ -1,14 +1,12 @@
-import { useState } from 'react'
 import './App.css'
 import Timeline from './components/time-line/TimeLine'
-import Navbar from './components/Navbar'
+import MyNavbar from './components/navbar/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* <Navbar /> */}
+      <MyNavbar />
       <Timeline />
     </>
   )

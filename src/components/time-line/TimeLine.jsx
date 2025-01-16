@@ -14,7 +14,7 @@ const Timeline = () => {
 
   return (
     <div className="container my-4" >
-    <h2 style={{marginBottom: "50px", color: "#273480"}}>Nuestra historia</h2>
+    <h2 style={{marginBottom: "50px", color: "#273480", fontSize: "40px"}}>Nuestra historia</h2>
       {/* Timeline */}
       <div className="d-flex justify-content-between align-items-center position-relative">
         <div className="position-absolute w-100 top-50 start-0 translate-middle-y bg-secondary" style={{ height: "2px" }}></div>
@@ -23,13 +23,13 @@ const Timeline = () => {
             key={index}
             className="btn rounded-circle d-flex justify-content-center align-items-center"
             style={{
-              width: "70px", // Tamaño del botón
-              height: "70px", // Tamaño del botón
+              width: "70px", 
+              height: "70px", 
               zIndex: 1,
               backgroundColor: getColorForYear(year),
-              color: "#fff", // Color del texto
-              fontSize: "18px", // Tamaño de la fuente
-              fontWeight: "bold", // Fuente más gruesa
+              color: "#fff", 
+              fontSize: "18px", 
+              fontWeight: "bold"
             }}
             onClick={() => handleButtonClick(year)}
           >

@@ -23,7 +23,7 @@ const Gallery = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="../src/assets/gallery/3.png"
+          src="./gallery/3.png"
           alt="Third slide"
         />
       </Carousel.Item>

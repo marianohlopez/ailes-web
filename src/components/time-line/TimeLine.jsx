@@ -13,8 +13,21 @@ const Timeline = () => {
   };
 
   return (
-    <div className="container my-4" >
-    <h2 style={{marginBottom: "50px", color: "#273480", fontSize: "40px"}}>Nuestra historia</h2>
+    <div id="timeline" className="container" style={{marginTop: "120px", marginBottom: "200px"}} >
+      <h2 style={{
+            color: "#273480",
+            fontWeight: "bold", 
+            fontSize: "40px",
+            marginRight: "30px"}} 
+            className="text-end"
+            >¿Quiénes somos?
+      </h2>
+      <p style={{ color: "#273480",textAlign: "justify", fontSize: "20px", marginTop: "24px"}}>
+        Somos un centro que brinda servicio de apoyo a la inclusión escolar y distintos espacios terapéuticos. 
+        Acompañamos a estudiantes con discapacidad en su integración al entorno educativo y social, asegurando 
+        su participación activa en todos los niveles y promoviendo un entorno inclusivo.
+      </p>
+      <h2 style={{marginBottom: "50px", marginTop: "118px", color: "#273480", fontSize: "40px"}}>Nuestra historia</h2>
       {/* Timeline */}
       <div className="d-flex justify-content-between align-items-center position-relative">
         <div className="position-absolute w-100 top-50 start-0 translate-middle-y bg-secondary" style={{ height: "2px" }}></div>

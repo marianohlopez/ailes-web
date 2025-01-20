@@ -20,7 +20,7 @@ const MyNavbar = () => {
               <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="btnNavBar align-items-center d-flex justify-content-evenly w-100">
                       <Navbar.Brand href='#home'><img className="logo" src={logo} alt="Logo de empresa"/></Navbar.Brand>
-                      <Nav.Link className='me-3 btnIndividual' href="#who">¿Quiénes somos?</Nav.Link>
+                      <Nav.Link className='me-3 btnIndividual' href="#timeline">¿Quiénes somos?</Nav.Link>
                       <Nav.Link className='me-3 btnIndividual' href="#schoolAcomp">Acompañamiento escolar</Nav.Link>
                       <Nav.Link className='me-3 btnIndividual' href="#clinical">Área clínica</Nav.Link>
                       <Nav.Link className='me-3 btnIndividual' href="#contact">Contacto</Nav.Link>

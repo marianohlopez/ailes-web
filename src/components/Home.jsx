@@ -5,8 +5,8 @@ import Col from 'react-bootstrap/Col';
 
 const Home = () => {
   return (
-    <Container>
-      <Row className="align-items-center mt-4">
+    <Container id="home">
+      <Row className="align-items-center mt-5">
         <Col md={7} className="text-center">
           <h1 style={{
             color: "#273480",

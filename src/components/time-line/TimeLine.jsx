@@ -13,7 +13,7 @@ const Timeline = () => {
   };
 
   return (
-    <div id="timeline" className="container" style={{marginTop: "120px", marginBottom: "200px"}} >
+    <div id="timeline" className="container" style={{marginTop: "120px", marginBottom: "150px"}} >
       <h2 style={{
             color: "#273480",
             fontWeight: "bold", 

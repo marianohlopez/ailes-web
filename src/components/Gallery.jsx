@@ -6,7 +6,7 @@ const Gallery = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/1.png"
+          src="./gallery/1.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -16,84 +16,84 @@ const Gallery = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/2.png"
+          src="./gallery/2.jpg"
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/3.png"
+          src="./gallery/3.jpg"
           alt="Third slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/4.png"
+          src="./gallery/4.jpg"
           alt="Fourth slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/5.png"
+          src="./gallery/5.jpg"
           alt="Fifth slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/6.png"
+          src="./gallery/6.jpg"
           alt="Sixth slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/7.png"
+          src="./gallery/7.jpg"
           alt="Seventh slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/8.png"
+          src="./gallery/8.jpg"
           alt="Eighth slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/9.png"
+          src="./gallery/9.jpg"
           alt="Ninth slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/10.png"
+          src="./gallery/10.jpg"
           alt="Tenth slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/11.png"
+          src="./gallery/11.jpg"
           alt="Eleventh slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/12.png"
+          src="./gallery/12.jpg"
           alt="Twelfth slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./gallery/13.png"
+          src="./gallery/13.jpg"
           alt="Thirteenth slide"
         />
       </Carousel.Item>

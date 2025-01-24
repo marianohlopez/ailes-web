@@ -8,21 +8,19 @@ const SchoolAcomp = () => {
     <Container id="schoolAcomp"
       style={{
       marginTop: "100px", 
-      minHeight: "500px"
+      minHeight: "500px",
+      color: "#273480"
     }}>
       <Row>
         <Col>
           <h2 style={{
-                color: "#273480",
                 fontWeight: "bold", 
                 fontSize: "40px"}}
                 className="mb-4"
                 >Acompañamiento escolar
           </h2>
           <p
-            style={{
-              color: "#273480", 
-              fontSize: "20px"}} 
+            style={{ fontSize: "20px" }} 
           >
             Trabajamos para que todos los niños puedan tener acceso a la escolaridad. Todos los niños 
             tienen las mismas oportunidades de aprendizaje con los apoyos que necesiten.

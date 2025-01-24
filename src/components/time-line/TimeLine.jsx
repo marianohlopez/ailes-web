@@ -1,4 +1,4 @@
-//import "./Timeline.css"; // Archivo CSS para los estilos
+import "./Timeline.css";
 import { useState } from "react";
 
 const Timeline = () => {
@@ -61,7 +61,7 @@ const Timeline = () => {
           onClick={closeModal}
         >
           <div
-            className="modal-dialog modal-dialog-centered"
+            className="modal-dialog modal-dialog-centered fade-in"
             role="document"
             onClick={(e) => e.stopPropagation()}
           >

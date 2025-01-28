@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Gallery from './components/Gallery'
 import SchoolAcomp from './components/SchoolAcomp'
 import Clinical from './components/Clinical'
+import Vision from './components/Vision'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Gallery />
       <SchoolAcomp />
       <Clinical />
+      <Vision />
     </>
   )
 }
